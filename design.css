@@ -23,8 +23,7 @@ span {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content:space-between;
-  background-color: #13131b;
+  justify-content:space-around;
   margin: none;
   padding: none;
   height: 500px;
@@ -45,7 +44,6 @@ span {
 }
 
 #intro p {
-  color: white;
   font-family: courier-prime, monospace;
   font-weight: 400;
   font-style: normal;
@@ -66,7 +64,6 @@ span {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
-  background-image: linear-gradient(#13131b, #212D40);
   margin: none;
   padding: none;
   height: 500px;
@@ -74,7 +71,6 @@ span {
 }
 
 h1 {
-color: white;
 font-family: annabelle-jf, Courier;
 font-weight: 400;
 font-style: normal;
@@ -84,7 +80,6 @@ font-size: 40px;
 
 #intro-container > p {
   width: 55%;
-  color: white;
   font-family: courier-prime, monospace;
   font-weight: 400;
   font-style: normal;
@@ -96,7 +91,6 @@ font-size: 40px;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
-  background-color: #212D40;
   margin: none;
   padding: none;
   height: 500px;
@@ -109,7 +103,6 @@ font-size: 40px;
 }
 
 .project-deets > h2 {
-  color: white;
   font-family: courier-prime, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -148,7 +141,6 @@ font-size: 40px;
 
 .project-deets > p {
   width: 90%;
-  color: white;
   font-family: courier-prime, monospace;
 }
 
@@ -160,7 +152,6 @@ font-size: 40px;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
-  background-image: linear-gradient( #212D40, #364156);
   margin: none;
   padding: none;
   height: 500px;
@@ -179,7 +170,6 @@ font-size: 40px;
   flex-flow: column;
   text-align: center;
   font-family: courier-prime, monospace;
-  color: white;
 }
 
 #resume {
@@ -187,7 +177,6 @@ font-size: 40px;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  background-image: linear-gradient(#364156, #7D4E57);
   margin: none;
   padding: none;
   height: 500px;
@@ -202,7 +191,7 @@ font-size: 40px;
 #resume > p {
   width: 90%;
   text-align: center;
-  color: white;
+
   font-family: courier-prime, monospace;
 }
 
@@ -211,7 +200,6 @@ font-size: 40px;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
-  background-color: #7D4E57;
   height: 500px;
 }
 
