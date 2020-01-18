@@ -228,7 +228,7 @@ a:visited {
 }
 
 a:hover {
-  color: white;
+  color: #7D4E57;
   font-weight: bold;
   background-color: transparent;
   text-decoration: none;
@@ -239,6 +239,7 @@ a:active {
   background-color: transparent;
   text-decoration: none;
 }
+
 
 .icon--ei-sc-github {
   fill: #ffd6f1;
