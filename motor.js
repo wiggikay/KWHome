@@ -1,5 +1,5 @@
 
-$(document).ready(function() {
+function openPlay() {
 
   // Create a timeline with default parameters
   var tl = anime.timeline({
@@ -29,7 +29,11 @@ $(document).ready(function() {
         }
         ,'-=1')
 
+      }
+
         ///////////////////////////////////
+
+        $(document).ready(function($) {
 
         var animation = anime({
         targets: '.plus',
@@ -38,7 +42,7 @@ $(document).ready(function() {
 
       document.querySelector('.plus').onmouseover = animation.play;
 
+
+      });
+
       //////////////////////////////////////
-
-
-});

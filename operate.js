@@ -1,25 +1,3 @@
-function preloader() {
-	if (document.getElementById) {
-		document.getElementById("preload-01").style.background = "url('imgs/KaylaTalking.gif') no-repeat -9999px -9999px";
-		document.getElementById("preload-02").style.background = "url('imgs/Simpleperksbanner.png') no-repeat -9999px -9999px";
-		document.getElementById("preload-03").style.background = "url('imgs/project3KaylaWiggins.gif') no-repeat -9999px -9999px";
-    document.getElementById("preload-04").style.background = "url('imgs/IMG_04331.jpeg') no-repeat -9999px -9999px";
-	}
-}
-function addLoadEvent(func) {
-	var oldonload = window.onload;
-	if (typeof window.onload != 'function') {
-		window.onload = func;
-	} else {
-		window.onload = function() {
-			if (oldonload) {
-				oldonload();
-			}
-			func();
-		}
-	}
-}
- addLoadEvent(preloader);
 
 $(document).ready(function() {
 
